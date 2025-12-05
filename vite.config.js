@@ -8,7 +8,7 @@ const repoName = 'portfolio';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: `/`,
+  base: `/${repoName}/`,
   plugins: [
     react()
   ],
