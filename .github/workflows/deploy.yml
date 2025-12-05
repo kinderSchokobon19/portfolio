@@ -1,0 +1,37 @@
+# .github/workflows/deploy.yml
+name: Deploy Portfolio to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main  # Déclenche le workflow à chaque push sur la branche main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest  # Environnement d'exécution Linux
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      # 1. Configuration de l'environnement Node.js (essentiel)
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20 # Utilise la version 20 LTS
+
+      # 2. Installation des dépendances
+      - name: Install dependencies
+        run: npm install
+
+      # 3. Compilation du projet (crée le dossier dist)
+      - name: Build project
+        run: npm run build
+
+      # 4. Déploiement sur GitHub Pages
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist  # Publie le contenu du dossier 'dist'
+          force_orphan: true  # Crée un historique de commit propre pour le déploiement
