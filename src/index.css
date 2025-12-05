@@ -1,0 +1,13 @@
+/* src/index.css */
+
+/* 1. IMPORTS DE POLICES DOIVENT ÊTRE EN HAUT */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+
+/* 3. VOS STYLES GLOBAUX EN DERNIER */
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #0d1117; 
+  color: #c9d1d9; 
+}
+/* Assurez-vous qu'il n'y a rien d'autre AVANT le @import et @tailwind */
