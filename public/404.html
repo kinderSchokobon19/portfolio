@@ -1,13 +1,13 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
   <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" href="/portfolio/assets/image.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>mon-portfolio-pro</title>
+    <meta charset="utf-8">
+    <script>
+      const pathWithoutBase = window.location.pathname.replace('/portfolio', '');
+      sessionStorage.redirect = pathWithoutBase;
+      window.location.href = '/portfolio/';
+    </script>
   </head>
   <body>
-    <div id="root"></div>
-    <script type="module" src="/portfolio/src/main.jsx"></script>
   </body>
 </html>
