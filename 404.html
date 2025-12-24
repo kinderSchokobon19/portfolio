@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script>
+      const pathWithoutBase = window.location.pathname.replace('/portfolio', '');
+      sessionStorage.redirect = pathWithoutBase;
+      window.location.href = '/portfolio/';
+    </script>
+  </head>
+  <body>
+  </body>
+</html>
