@@ -1,9 +1,7 @@
-// src/pages/Contact.jsx
 import React, { useState } from 'react';
 
 function Contact() {
   const [formStatus, setFormStatus] = useState('idle');
-  // 💡 REMPLACEZ PAR VOTRE LIEN FORMULAIRE ACTIF (ex: Formspree)
   const FORM_ACTION_URL = "https://formspree.io/f/xvgeqbjw"; 
 
   const handleSubmit = (e) => {

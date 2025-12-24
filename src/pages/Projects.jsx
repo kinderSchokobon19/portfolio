@@ -1,9 +1,7 @@
-// src/pages/Projects.jsx
 import React from 'react';
 import ProjectCard from '../components/ProjectCard';
 
 function Projects() {
-  // 💡 REMPLACEZ CES DONNÉES PAR VOS VRAIS PROJETS !
   const projects = [
     {
       id: 1,
@@ -31,11 +29,19 @@ function Projects() {
     },
     {
       id: 4,
+      title: "P2P-Secure-Vault",
+      description: "Système de transfert de fichiers P2P chiffré sans serveur centralisé. Transfert sécurisé avec chiffrement (AES-256-GCM), échange de clés Diffie-Hellman, NAT traversal et multithreading. Interfaces Desktop (PyQt5/Tkinter) et Web (Flask).",
+      technologies: ["Python", "PyQt5", "Flask", "Cryptographie", "TCP Sockets"],
+      githubLink: "https://github.com/kinderSchokobon19/P2P-file-sharing", 
+      liveLink: null,
+    },
+    {
+      id: 5,
       title: "Votre Portfolio Personnel (Ce Site)",
       description: "Développé de A à Z pour présenter mon profil de développeur, mettant en pratique mes compétences en intégration Front-End et design moderne.",
       technologies: ["React", "Vite", "Tailwind CSS", "React Router DOM"],
-      githubLink: "https://github.com/votre-utilisateur/mon-portfolio-pro", 
-      liveLink: "https://votre-portfolio.vercel.app", 
+      githubLink: "https://github.com/kinderSchokobon19/portfolio", 
+      liveLink: "https://kinderschokobon19.github.io/portfolio/", 
     },
   ];
 

@@ -1,4 +1,3 @@
-// src/pages/Home.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CentraleSupelecLogo } from '../components/CentraleSupelecLogo';
@@ -6,14 +5,11 @@ import { CentraleSupelecLogo } from '../components/CentraleSupelecLogo';
 function Home() {
   return (
     <div className="min-h-[90vh] flex flex-col justify-center">
-      {/* Section Hero avec gradient background */}
       <div className="relative overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-gray-900 rounded-2xl p-12 md:p-20 mb-16 shadow-2xl border border-blue-500/20">
-        {/* Éléments de décoration */}
         <div className="absolute top-0 right-0 w-96 h-96 bg-blue-600 rounded-full opacity-10 blur-3xl -translate-y-1/2 translate-x-1/2"></div>
         <div className="absolute bottom-0 left-0 w-96 h-96 bg-cyan-600 rounded-full opacity-10 blur-3xl translate-y-1/2 -translate-x-1/2"></div>
 
         <div className="relative z-10 text-center">
-          {/* Logo École */}
           <div className="mb-8 flex justify-center">
             <div className="inline-flex items-center space-x-3 bg-blue-600/20 backdrop-blur-sm px-6 py-3 rounded-full border border-blue-400/30">
               <div className="flex items-center justify-center h-8">
@@ -22,8 +18,6 @@ function Home() {
               <span className="text-blue-300 font-semibold text-sm hidden sm:inline">CentraleSupelec</span>
             </div>
           </div>
-
-          {/* Titre principal */}
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
             Bienvenue ! 👋
           </h1>
@@ -36,8 +30,6 @@ function Home() {
           <p className="text-gray-400 mb-10 max-w-xl mx-auto">
             Passionné par le développement web, l'innovation technologique et la création d'expériences utilisateur exceptionnelles.
           </p>
-
-          {/* Boutons d'action */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/projects"
@@ -55,7 +47,6 @@ function Home() {
         </div>
       </div>
 
-      {/* Section stats/highlights */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
         <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-xl shadow-lg border border-blue-500/20 hover:border-blue-500/50 transition">
           <div className="text-4xl mb-3">🎓</div>

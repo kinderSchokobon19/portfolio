@@ -1,4 +1,3 @@
-// src/components/Navbar.jsx
 import React, { useState } from 'react';
 import { Link, NavLink } from 'react-router-dom';
 import { CentraleSupelecLogoOfficial } from './CentraleSupelecLogo';
@@ -13,7 +12,6 @@ function Navbar() {
     <nav className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 p-4 shadow-2xl sticky top-0 z-10 border-b border-blue-500/20">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="flex items-center space-x-2 hover:opacity-80 transition">
-          {/* Logo CentraleSupelec */}
           <div className="h-10 flex items-center">
             <CentraleSupelecLogoOfficial size="sm" />
           </div>
@@ -21,8 +19,6 @@ function Navbar() {
             <span className="text-white text-sm font-bold leading-tight">Thibault Verdes</span>
           </div>
         </Link>
-
-        {/* Menu Desktop */}
         <div className="hidden md:flex space-x-8">
           <NavLink
             to="/"
@@ -58,7 +54,6 @@ function Navbar() {
           </NavLink>
         </div>
 
-        {/* Menu Mobile Button */}
         <button
           className="md:hidden text-gray-300 hover:text-blue-400 transition"
           onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -68,8 +63,6 @@ function Navbar() {
           </svg>
         </button>
       </div>
-
-      {/* Menu Mobile */}
       {isMenuOpen && (
         <div className="md:hidden mt-4 pt-4 border-t border-gray-700 space-y-2">
           <NavLink

@@ -1,4 +1,3 @@
-// src/components/Footer.jsx
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { CentraleSupelecLogoOfficial } from './CentraleSupelecLogo';
@@ -32,9 +31,7 @@ function Footer() {
   return (
     <footer className="bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-gray-400 mt-16 border-t border-blue-500/20">
       <div className="container mx-auto px-4">
-        {/* Contenu principal du footer */}
         <div className="py-12 grid grid-cols-1 md:grid-cols-3 gap-8">
-          {/* Section branding */}
           <div className="text-center md:text-left">
             <div className="flex items-center space-x-3 mb-4 justify-center md:justify-start h-8">
               <div className="flex-shrink-0">
@@ -49,8 +46,6 @@ function Footer() {
               Développeur Full Stack Junior passionné par l'innovation technologique
             </p>
           </div>
-
-          {/* Liens rapides */}
           <div>
             <h4 className="text-white font-bold mb-4 text-center">Navigation</h4>
             <div className="flex flex-wrap gap-4 justify-center">
@@ -65,8 +60,6 @@ function Footer() {
               ))}
             </div>
           </div>
-
-          {/* Réseaux sociaux */}
           <div>
             <h4 className="text-white font-bold mb-4 text-center">Me Suivre</h4>
             <div className="flex justify-center space-x-4">
@@ -89,11 +82,7 @@ function Footer() {
             </div>
           </div>
         </div>
-
-        {/* Divider */}
         <div className="border-t border-gray-700"></div>
-
-        {/* Bas du footer */}
         <div className="py-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-gray-500">
             &copy; {new Date().getFullYear()} Thibault Verdes. Tous droits réservés.
