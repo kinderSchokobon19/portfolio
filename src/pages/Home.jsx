@@ -19,51 +19,48 @@ function Home() {
             </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-extrabold text-white mb-4 leading-tight">
-            Bienvenue ! 👋
+            Thibault Verdes
           </h1>
-          <h2 className="text-2xl md:text-4xl font-bold mb-6">
-            Je suis <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Thibault Verdes</span>
+          <h2 className="text-xl md:text-2xl font-semibold mb-6 text-gray-300">
+            Étudiant Ingénieur à CentraleSupelec
           </h2>
           <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Étudiant en 2ème année à <span className="font-semibold text-blue-300">CentraleSupelec</span> & Développeur <span className="font-semibold text-cyan-300">Full Stack Junior</span>
+            Passionné par le <span className="font-semibold text-white">développement web</span> et la <span className="font-semibold text-white">cybersécurité</span>. Je construis des solutions modernes et sécurisées.
           </p>
           <p className="text-gray-400 mb-10 max-w-xl mx-auto">
-            Passionné par le développement web, l'innovation technologique et la création d'expériences utilisateur exceptionnelles.
+            Créateur de projets innovants allant du web au déploiement sécurisé, avec un intérêt particulier pour les solutions modernes et l'architecture système.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               to="/projects"
-              className="bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-700 hover:to-blue-600 text-white font-bold py-4 px-8 rounded-lg transition duration-300 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-block"
+              className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-lg transition duration-300 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 inline-block"
             >
-              🚀 Découvrir mes Projets
+              Voir mes Projets
             </Link>
             <Link
               to="/contact"
               className="bg-gray-700 hover:bg-gray-600 text-white font-bold py-4 px-8 rounded-lg transition duration-300 text-lg shadow-lg hover:shadow-xl transform hover:-translate-y-1 border border-gray-600 hover:border-gray-500 inline-block"
             >
-              💬 Me Contacter
+              Me Contacter
             </Link>
           </div>
         </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-16">
-        <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-xl shadow-lg border border-blue-500/20 hover:border-blue-500/50 transition">
-          <div className="text-4xl mb-3">🎓</div>
-          <h3 className="text-xl font-bold text-white mb-2">CentraleSupelec</h3>
-          <p className="text-gray-400">2ème année - École d'ingénieur prestigieuse</p>
+        <div className="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700 hover:border-gray-600 transition">
+          <h3 className="text-lg font-bold text-white mb-2">Formation</h3>
+          <p className="text-gray-400">2ème année - CentraleSupelec (École d'ingénieur)</p>
         </div>
 
-        <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-xl shadow-lg border border-blue-500/20 hover:border-blue-500/50 transition">
-          <div className="text-4xl mb-3">💻</div>
-          <h3 className="text-xl font-bold text-white mb-2">Full Stack Dev</h3>
-          <p className="text-gray-400">Spécialisé en React, Node.js et technologies modernes</p>
+        <div className="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700 hover:border-gray-600 transition">
+          <h3 className="text-lg font-bold text-white mb-2">Expertise</h3>
+          <p className="text-gray-400">Web, Backend, Sécurité et Architectures modernes</p>
         </div>
 
-        <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-8 rounded-xl shadow-lg border border-blue-500/20 hover:border-blue-500/50 transition">
-          <div className="text-4xl mb-3">🎯</div>
-          <h3 className="text-xl font-bold text-white mb-2">Projecté</h3>
-          <p className="text-gray-400">Créateur de solutions innovantes et performantes</p>
+        <div className="bg-gray-800 p-8 rounded-lg shadow-lg border border-gray-700 hover:border-gray-600 transition">
+          <h3 className="text-lg font-bold text-white mb-2">Approche</h3>
+          <p className="text-gray-400">Code performant, sécurisé et maintenable</p>
         </div>
       </div>
     </div>

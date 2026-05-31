@@ -36,14 +36,11 @@ main {
 
 /* Classes utilitaires */
 .gradient-text {
-  background: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
+  color: #3b82f6;
 }
 
 .gradient-bg {
-  background: linear-gradient(135deg, #1e3a8a 0%, #0c4a6e 100%);
+  background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
 }
 
 .glass-effect {
@@ -58,15 +55,15 @@ main {
 }
 
 .card-hover:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(37, 99, 235, 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 10px 25px rgba(51, 65, 85, 0.3);
 }
 
 /* Glow effect */
 .glow-effect {
-  box-shadow: 0 0 20px rgba(37, 99, 235, 0.3);
+  box-shadow: 0 0 15px rgba(37, 99, 235, 0.2);
 }
 
 .glow-effect:hover {
-  box-shadow: 0 0 30px rgba(37, 99, 235, 0.6);
+  box-shadow: 0 0 25px rgba(37, 99, 235, 0.4);
 }

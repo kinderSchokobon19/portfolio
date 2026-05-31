@@ -28,7 +28,7 @@ function About() {
             <div className="flex-1">
               <h3 className="text-2xl font-bold text-white mb-3">Mon Parcours</h3>
               <p className="text-gray-300 text-lg leading-relaxed">
-                Je suis étudiant généraliste en <span className="font-semibold text-blue-300">3ème année à CentraleSupelec</span>, une école d'ingénieur de référence. Je me suis spécialisé dans les <span className="font-semibold text-cyan-300">techniques du numérique</span> avec une passion particulière pour le développement web et les applications mobiles.
+                Je suis étudiant généraliste en <span className="font-semibold text-blue-300">2ème année à CentraleSupelec</span>, une école d'ingénieur de référence. Je me suis spécialisé dans les <span className="font-semibold text-cyan-300">techniques du numérique</span> avec une passion particulière pour le développement web et les applications mobiles.
               </p>
               <p className="text-gray-300 text-lg leading-relaxed mt-4">
                 Mon objectif est de transformer les défis clients en solutions numériques robustes, élégantes et performantes. Je suis un développeur curieux qui aime apprendre et explorer de nouvelles technologies.

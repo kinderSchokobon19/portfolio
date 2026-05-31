@@ -43,7 +43,7 @@ function Footer() {
               </div>
             </div>
             <p className="text-sm text-gray-500">
-              Développeur Full Stack Junior passionné par l'innovation technologique
+              Etudiant passionné par l'innovation technologique
             </p>
           </div>
           <div>
@@ -85,7 +85,7 @@ function Footer() {
         <div className="border-t border-gray-700"></div>
         <div className="py-6 flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <p className="text-sm text-gray-500">
-            &copy; {new Date().getFullYear()} Thibault Verdes. Tous droits réservés.
+            &copy; {new Date().getFullYear()} Thibault Verdes.
           </p>
           <p className="text-sm text-gray-500 flex items-center space-x-1">
             <span>Fait en React & Tailwind CSS</span>
